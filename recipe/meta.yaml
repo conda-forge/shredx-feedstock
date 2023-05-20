@@ -12,7 +12,7 @@ source:
 build:
   # can't be noarch due to scripts
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   skip: True  # [py>=310 or win]
 
 requirements:
